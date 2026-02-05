@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = "https://YOUR_BACKEND_URL/api";
+const API = "https://vote-w2zg.onrender.com";
 
 export default function App() {
   const [token, setToken] = useState<string | null>(
